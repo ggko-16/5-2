@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    background: #07081A;
+}
+
+header {
+    display: flex;
+    padding: 28px 200px 0 200px;
+    border-bottom: 1px solid #261C51;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo h2 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.list {
+    display:  flex;
+    gap: 16px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.list :first-child {
+    color: #8CE900;
+}
+
+/* main */
+
+main {
+    padding: 0 200px;
+}
+
+.botDiv {
+    margin: 64px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.botDiv h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+}
+
+.project {
+    width: 100%;
+    background-color: #242642;
+    padding: 40px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.competed h2 {
+    color: #8CE900;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.competed p {
+    color: #C0C0C0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 200px;
+    padding: 0 200px 64px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoDiv {
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    gap: 16px;
+}
+
+.logoDiv p {
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.navigation p {
+    color: #8CE900;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.navigation a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
